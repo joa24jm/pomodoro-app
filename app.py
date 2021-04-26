@@ -17,7 +17,7 @@ def local_css(file_name):
 #def icon(icon_name):
 #    st.markdown(f'<i class="material-icons">{icon_name}</i>', unsafe_allow_html=True)
 
-local_css("style.css")
+local_css("style.css") 
 #remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
 
@@ -27,7 +27,7 @@ st.write("""
 
 Let's do some focus work in data science with this app.
 
-Developed by: [Data Professor](http://youtube.com/dataprofessor)
+
 
 """)
 
@@ -46,7 +46,7 @@ if button_clicked:
         while t1:
             mins, secs = divmod(t1, 60)
             timer = '{:02d}:{:02d}'.format(mins, secs)
-            st.header(f"⏳ {timer}")
+            st.header(f"⏳🧠 {timer}")
             time.sleep(1)
             t1 -= 1
             st.success("🔔 25 minutes is over! Time for a break!")
